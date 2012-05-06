@@ -70,6 +70,7 @@ body, html {
   margin-left: -300px;
   background-color: #fff;
   padding: 40px 10px 10px; }
+  
   #todos div.remaining {
     overflow: hidden;
     width: 100%;
@@ -79,9 +80,11 @@ body, html {
     border-top: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
     line-height: 25px; }
+    
     #todos div.remaining button {
       float: right;
       padding: 5px; }
+      
   #todos input[type='text'] {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -101,8 +104,10 @@ body, html {
     padding: 5px;
     border: 1px solid #bbbbbb;
     font-weight: 500; }
+    
     #todos input[type='text']::-webkit-input-placeholder {
       color: #aaa; }
+      
   #todos h1 {
     -moz-border-radius-topleft: 8px;
     -webkit-border-top-left-radius: 8px;
@@ -131,24 +136,31 @@ body, html {
     left: 0;
     padding: 5px 10px;
     border-bottom: 1px solid #bbbbbb; }
+    
   #todos label {
     font-size: 15px; }
+    
     #todos label input {
       margin-top: 6px;
       margin-right: 5px;
       float: left; }
+      
   #todos label.done-label {
     margin-left: 6px;
     display: block;
     margin-top: 10px;
     font-weight: bold; }
+    
   #todos input[type=checkbox] {
     float: left;
     margin-top: 5px;
     margin-right: 7px; }
+    
   #todos ul {
     margin-left: 6px; }
+    
     #todos ul li {
       margin-bottom: 5px; }
+      
     #todos ul li.is-done {
       text-decoration: line-through; }
